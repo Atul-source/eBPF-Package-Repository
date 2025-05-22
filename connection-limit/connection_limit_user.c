@@ -1,7 +1,7 @@
 // Copyright Contributors to the L3AF Project.
 // SPDX-License-Identifier: (GPL-2.0 OR BSD-2-Clause)
 
-#include "bpf_util.h"
+// #include "bpf_util.h"
 #include <arpa/inet.h>
 #include <assert.h>
 #include <bpf/bpf.h>
@@ -22,6 +22,7 @@
 #include <string.h>
 #include <sys/resource.h>
 #include <sys/time.h>
+#include <sys/stat.h>
 #include <time.h>
 #include <unistd.h>
 
